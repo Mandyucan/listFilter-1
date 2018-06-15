@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.wrapper {
+	width: 400px;
+	margin: 100px auto 0;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 10px;	
+}
+
+.search{
+	
+}
+
+.search input{
+	width: 200px;
+	height: 30px;
+	padding-left: 10px; 
+	border: 1px solid #ccc;
+	border-radius: 4px;
+
+}
+.search p{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.search span{
+	padding: 6px;
+	color: orange;
+	background: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.search .active{
+	color: #fff;
+	background: orange;
+
+}
+
+.userList li{
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0;
+}
+
+.userList img{
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+
+.userList p{
+	margin-left: 65px;
+	line-height: 25px;
+
+}
